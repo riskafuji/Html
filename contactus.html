@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        /* Tambahkan CSS untuk styling formulir */
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #000000;
+          margin: 0;
+          padding: 0;
+        }
+        .container {
+          width: 80%;
+          margin: auto;
+          overflow: hidden;
+        }
+        #contact-form {
+        
+          background: #b3b3b3;
+          padding: 20px;
+          margin-top: 20px;
+          border-radius: 5px;
+        }
+        #contact-form label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        #contact-form input[type="text"],
+        #contact-form textarea {
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border-radius: 5px;
+          border: 1px solid #000000;
+        }
+        #contact-form input[type="submit"] {
+          width: auto;
+          padding: 10px 20px;
+          background: #333;
+          color: #ffffff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        #contact-form input[type="submit"]:hover {
+          background: #444;
+        }
+      </style>
+
+    <link rel="stylesheet" href="asset/style.css" />
+  </head>
+  <body style="background-color: #D3D3D3">
+    <div class="navbar">
+      <a href="" class="navbar-logo">Andri <span>Shoes</span></a>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="Profile.html">Profile</a>
+        <a href="product.html">Product</a>
+        <a href="form.html">Saran</a>
+        <a href="contactus.html">Contact us</a>
+        <a href="medialink.html">Media Link</a>
+      </div>
+    </div>
+        <div style="padding-top: 150px; " class="container">
+          <h4 style="text-align: center; color: #000000; padding-bottom: 25px; ">Di dunia maya berjuta rasa,
+            Hubungi kami tak perlu raguasa.
+            Email atau telepon pilih yang pas,
+            Bantuan kami sedia layani dengan kasih sayang, selalu tulus.</h4>
+          <form id="contact-form" action="mailto:ikhwanudin" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+        </body>
+        </html>
+        
+    </div>
+  </body>
+</html>
